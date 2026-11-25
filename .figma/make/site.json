@@ -1,0 +1,10 @@
+{
+  "description": "Browse trucks, tractors, and three-wheelers, compare prices and specifications, and connect with dealers to find the right commercial vehicle.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
