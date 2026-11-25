@@ -1,0 +1,3 @@
+export function Icon({ name = 'truck', className = '' }: { name?: string; className?: string }) {
+  return <svg className={`h-5 w-5 shrink-0 ${className}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{name === 'search' ? <><circle cx="10" cy="10" r="6" /><path d="m15 15 6 6" /></> : name === 'check' ? <path d="m5 12 4 4L19 6" /> : name === 'compare' ? <><path d="M6 4v16m12-16v16M2 8h8M14 16h8" /><circle cx="6" cy="8" r="3" /><circle cx="18" cy="16" r="3" /></> : <><path d="M2 6h12v11H2zM14 10h4l4 4v3h-8M5 6V3h6" /><circle cx="6" cy="18" r="2" /><circle cx="18" cy="18" r="2" /></>}</svg>;
+}
